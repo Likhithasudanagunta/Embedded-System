@@ -18,7 +18,8 @@ void loop() {
   if(switchState==HIGH){
     digitalWrite(ledPin,HIGH);
     delay(1000);
+}
     digitalWrite(ledPin,LOW);
-  }
+  
 
 }
