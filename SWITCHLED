@@ -15,9 +15,9 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   switchState=digitalRead(switchPin);
-  if(switchState==LOW){
+  if(switchState==HIGH){
     digitalWrite(ledPin,HIGH);
-    delay(3000);
+    delay(1000);
     digitalWrite(ledPin,LOW);
   }
 
