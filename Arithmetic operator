@@ -1,0 +1,21 @@
+int a,b,c,d,e,f,g;
+void setup() {
+   Serial.begin(9600);
+  
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  a=5,b=7;
+  c=a+b;
+  d=a-b;
+  e=a*b;
+  f=a/b;
+  g=a%b;
+ Serial.println(c); 
+ Serial.println(d); 
+ Serial.println(e); 
+ Serial.println(f); 
+ Serial.println(g); 
+
+}
